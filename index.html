@@ -3,27 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Card search</title>
 </head>
 <body>
 
     <div class="search-app">
-        <form action="">
-            <input type="search" name="" id="">
-            <button>Search</button>
+        <form action=""  class="search-app__form">
+            <input type="search" name="" id="" placeholder="Recherchez une image..."
+            class="search-app__input" >
+            <button class="search-app__btn" >Search</button>
         </form>
 
         <div class="search-app__img-container">
             <div class="img-box">
-                <img src="./" alt="">
+                <img src="./assets/img/lion.jpg" alt="">
 
                 <div class="img-box__infos">
-                    <h2 class="img-box__title"></h2>
-                    <p class="img-box__desc"></p>
+                    <h2 class="img-box__title">Lion</h2>
+                    <p class="img-box__desc">It is the King of the Jungle!</p>
+                </div>
+            </div>
+
+            <div class="img-box">
+                <img src="./assets/img/apple.jpg" alt="">
+
+                <div class="img-box__infos">
+                    <h2 class="img-box__title">Apple</h2>
+                    <p class="img-box__desc">It is the small juicy fruit!</p>
+                </div>
+            </div>
+            
+            <div class="img-box">
+                <img src="./assets/img/diamond.jpg" alt="">
+
+                <div class="img-box__infos">
+                    <h2 class="img-box__title">Diamond</h2>
+                    <p class="img-box__desc">It is one of the most expensive stone in the entire world!</p>
+                </div>
+            </div>
+
+            <div class="img-box">
+                <img src="./assets/img/book.jpg" alt="">
+
+                <div class="img-box__infos">
+                    <h2 class="img-box__title">Book</h2>
+                    <p class="img-box__desc">It is a set of knowledges written on a lot of pages!</p>
+                </div>
+            </div>
+
+            <div class="img-box">
+                <img src="./assets/img/microphone.jpg" alt="">
+
+                <div class="img-box__infos">
+                    <h2 class="img-box__title">Mircophone</h2>
+                    <p class="img-box__desc">It is the vocal tool used to sing or record a voice!</p>
                 </div>
             </div>
         </div>
     </div>
     
+    <script src="config.js" ></script>
+    <script src="script.js" ></script>
 </body>
 </html>
