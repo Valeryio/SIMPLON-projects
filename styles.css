@@ -4,6 +4,10 @@
   --block-padding: 2rem;
 }
 
+body
+{
+  padding: 4rem 2rem;
+}
 
 .search-app
 {
@@ -12,7 +16,7 @@
   justify-content: center;
   flex-direction: column;
   margin-inline: auto;
-  border: 1px solid;
+  /* border: 1px solid; */
 }
 
 .search-app__form
@@ -72,6 +76,5 @@ img
 
 .img-box__title
 {
-  line-height: 0rem;
   font-size: 1.5rem;
 }
