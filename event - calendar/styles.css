@@ -1,0 +1,98 @@
+
+
+svg
+{
+  cursor: pointer;
+}
+
+
+main
+{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2rem;
+}
+
+
+.calender-container
+{
+  max-width: 24rem;
+  margin: auto;
+  border: 1px solid;
+  padding: 1rem;
+}
+
+.calendar__month-container
+{
+  display: flex;
+  padding: .5rem;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid violet;
+}
+
+.calendar__week-days
+{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.calendar__days-container
+{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  /* padding: 1rem .5rem; */
+  bordeR: 1px solid crimson;
+}
+
+.calendar__day-name
+{
+  width: 4rem;
+  height: 4rem;
+  /* padding: .8rem; */
+  cursor: pointer;
+  /* padding-top: .25rem; */
+  text-align: center;
+  /* border-radius: 80px; */
+  border: none;
+  background-color: rgb(238, 238, 238);
+
+}
+.calendar__day
+{
+  border: none;
+  padding: .75rem;
+  cursor: pointer;
+  border-radius: .5rem;
+  background-color: rgb(228, 227, 227);
+  /* border: 1px solid gray; */
+}
+
+
+
+.tasks-container
+{
+  padding: 2rem;
+  bordeR: 1px solid violet;
+}
+
+.tasks__list
+{
+  
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  list-style: none;
+  flex-direction: column;
+}
+
+.task__name
+{
+  background-color: bisque;
+  border: 1px solid gray;
+  padding: 1rem;
+  border-radius: .5rem;
+}
