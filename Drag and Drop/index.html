@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles/styles.css">
+        <title>Drag and Drop project</title>
+    </head>
+    <body>
+
+        <div class="left-container container">
+            <h2 class="container-title">Left List</h2>
+
+            <div class="draggable-elements drop-zone">
+
+                <div class="drag-content draggable-text"
+                draggable="true"
+                id="mytext">
+                    <p>This is a text element to drag and drop</p>
+                </div>
+
+                <div class="drag-content draggable-img" 
+                draggable="true"
+                id="myimg">
+                    <img src="./assets/images/lion.jpg  " alt="Cover of a book">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="right-container container">            
+            <h2 class="container-title"> Right List</h2>
+
+            <div class="drop-zone" >
+
+            </div>
+        </div>
+        
+        <script src="./scripts/script.js" ></script>
+    </body>
+</html>

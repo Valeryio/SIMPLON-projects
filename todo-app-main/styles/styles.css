@@ -1,0 +1,145 @@
+:root
+{
+  --clr-p-bright-blue: hsl(220, 98%, 61%);
+  --clr-p-check-bg: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
+
+  --clr-n-light-gray: hsl(0, 0%, 98%);
+  --clr-n-light-grayish: hsl(236, 33%, 92%);
+  --clr-n-grayish-blue: hsl(233, 11%, 84%);
+
+  --clr-d-grayish-blue: hsl(236, 9%, 61%);
+  --clr-d-grayish-vblue: hsl(235, 19%, 35%);  
+  --clr-d-blue: hsl(235, 21%, 11%);
+  --clr-d-desat-blue: hsl(235, 24%, 19%);
+
+  --clr-l-grayish-blue: hsl(234, 39%, 85%);
+  
+  --ff-primary: 'Josefin Sans', "Sans serif";
+}
+
+body
+{
+  font-family: var(--ff-primary);
+  color: var(--clr-l-grayish-blue);
+  background: 
+  url('./../images/bg-desktop-dark.jpg') no-repeat,
+  var(--clr-d-blue);
+  background-size:
+  100% 16rem,
+  100% 100% ;
+}
+
+.todo
+{
+  display: flex;
+  gap: 1rem 0;
+  min-width: 16rem;
+  max-width: 32rem;
+  align-items: stretch;
+  margin: 4rem auto 2rem;
+
+  color: var(--clr-n-light-gray);
+  flex-direction: column;
+  justify-content: start;
+  border-radius: .25rem;
+}
+
+.todo__options
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task-form
+{
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  gap: 2rem;
+  position: relative;
+  padding: .5rem 1.5rem;
+  align-items: center;
+  margin: 2rem auto 0;
+  border-radius: .25rem;
+  grid-column: 1 / span 2;
+  background-color: var(--clr-d-desat-blue);
+}
+
+.task__input
+{
+  width: 100%;
+  height: 90%;
+  border: none;
+  outline: none;
+  color: var(--clr-n-light-gray);
+  caret-color: hsl(220, 98%, 61%);
+  background-color: transparent;
+}
+
+
+
+
+
+.todo-body
+{
+  max-height: 33rem;
+  overflow: auto;
+  /* border: 1px solid red; */
+  border-radius: .25rem;
+  color: var(--clr-n-grayish-blue);
+  background: var(--clr-d-desat-blue);
+  box-shadow: 8px 8px 32px rgb(0, 0, 0, 0.4);
+}
+
+.task-box
+{
+  display: flex;
+  gap: 2rem;
+  cursor: pointer;
+  position: relative;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 0.01em solid var(--clr-d-grayish-blue);
+}
+
+.task__desc
+{
+  width: 22rem;
+}
+
+
+.todo__footer
+{
+  display: flex;
+  padding: 1rem 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-btn
+{
+  font-weight: 600;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  color: var(--clr-d-grayish-vblue);
+}
+
+.todo-btn:hover
+{
+  font-weight: 900;
+  color: var(--clr-n-light-gray);
+}
+
+.todo-items-count
+{
+  font-size: .8rem;
+}
+
+.drag-instruction
+{
+  text-align: center;
+  color: var(--clr-d-grayish-blue);
+}

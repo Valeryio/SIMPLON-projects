@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./fonts/fonts.css">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/utilities.css">
+  <title>Frontend Mentor | Todo app</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main class="todo">
+    <div class="todo__header">
+      <div class="todo__options" >
+        <h1 class="todo__title">TO DO</h1>
+        <img src="./images/icon-sun.svg" alt="Icon to change the theme" class="theme-icon">
+      </div>
+      <form action="" class="task-form">
+        <input type="checkbox" class="rounded"  name="" id="">
+        <span class="checkbox-mark active-check" ></span>
+        <input type="text" placeholder="Type to add new task..." class="task__input">
+      </form>
+    </div>
+
+    <div class="todo-body">
+      <ul class="task-container">
+      
+        <!--
+        <li class="task-box">
+          <input type="checkbox" class="hidden-check"  name="" id="">
+          <span class="checkbox-mark" ></span>
+          <p class="task__desc">10 minutes meditation<p>
+          <img src="./images/icon-cross.svg" alt="" class="task__delete-icon">
+        </li>
+  
+        <li class="task-box">
+          <input type="checkbox" class="hidden-check"  name="" id="">
+          <span class="checkbox-mark" ></span>
+          <p class="task__desc">Complete the online course<p>
+          <img src="./images/icon-cross.svg" alt="" class="task__delete-icon">
+        </li>
+
+        <li class="task-box">
+          <input type="checkbox" class="hidden-check"  name="" id="">
+          <span class="checkbox-mark" ></span>
+          <p class="task__desc">10 minutes meditation<p>
+          <img src="./images/icon-cross.svg" alt="" class="task__delete-icon">
+        </li>
+        
+        <li class="task-box">
+          <input type="checkbox" class="hidden-check"  name="" id="">
+          <span class="checkbox-mark" ></span>
+          <p class="task__desc">Read for 1 hour<p>
+          <img src="./images/icon-cross.svg" alt="" class="task__delete-icon">
+        </li>
+  
+        <li class="task-box">
+          <input type="checkbox" class="hidden-check"  name="" id="">
+          <span class="checkbox-mark" ></span>
+          <p class="task__desc">Pick up groceries <p>
+          <img src="./images/icon-cross.svg" alt="" class="task__delete-icon">
+        </li> 
+  
+        <li class="task-box">
+          <input type="checkbox" class="hidden-check"  name="" id="">
+          <span class="checkbox-mark" ></span>
+          <p class="task__desc">Complete Todo App on Frontend Mentor<p>
+          <img src="./images/icon-cross.svg" alt="" class="task__delete-icon">
+        </li>
+  
+        <li class="task-box default-task-box">
+          <p class="task__desc">They have no task added to this list<p>
+          <img src="./images/icon-cross.svg" alt="" class="task__delete-icon">
+        </li> 
+  -->
+
+      </ul>
+
+      <div class="todo__footer">
+        <p class="todo-items-count"></p>
+
+        <div class="todo-states-container">
+          <button class="todo-state todo-btn active-btn">All</button>
+          <button class="todo-state todo-btn">Active</button>
+          <button class="todo-state todo-btn">Complete</button>
+        </div>
+
+        <button class="clear-btn todo-btn">Clear Completed</button>
+      </div>
+    </div>
+    
+  </main>
+
+
+  <p class="drag-instruction" >Drag and drop to reorder list</p>
+
+<!-- 
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  <script src="./scripts/config.js" ></script>
+  <script src="./scripts/script.js" ></script>
+  <script src="./scripts/index.js" ></script>
+</body>
+</html>

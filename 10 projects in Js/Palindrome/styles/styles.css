@@ -1,0 +1,84 @@
+:root
+{
+  --clr-primary: #AA57CB;
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  box-sizing: border-box;
+}
+
+body
+{
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--clr-primary);
+}
+
+.palindrom
+{
+  min-width: 16rem;
+  max-width: 24rem;
+  display: flex;
+  padding: 2rem;
+  gap: 1rem;
+  border-radius: .5rem;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 2px 2px 16px rgb(0, 0, 0, 0.2);
+}
+
+.palindrom-title
+{
+  font-size: 1.5rem;
+}
+
+
+.palindrom-desc
+{
+  font-size: .9rem;
+}
+
+
+.palindrom-input
+{
+  height: 3rem;
+  padding: 1rem;
+  outline: none;
+  border-radius: .5rem;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.palindrom-btn
+{
+  height: 3rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: .5rem;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 4px rgb(0, 0, 0, 0.2);
+  background-color: var(--clr-primary);
+}
+
+
+.palindrom-input:focus
+{
+  box-shadow: 0 0 4px rgb(0, 0, 0, 0.2);
+}
+
+.palindrom-btn:hover
+{
+  box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.2);
+}
+
+.text-primary { color: var(--clr-primary)}
+
+.text-danger { color: red};

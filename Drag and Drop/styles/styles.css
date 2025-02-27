@@ -1,0 +1,50 @@
+
+body
+{
+  margin: 0;
+  display: flex;
+  padding: 2rem;
+  gap: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.container
+{
+  width: 32rem;
+  height: 80vh;
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 1px solid ;
+}
+
+.draggable-elements
+{
+  display: flex;
+  gap:2rem;
+  font-size: 1.5rem;
+  flex-direction: column;
+}
+
+.drag-content
+{
+  padding: 1rem;
+  border: 1px solid;
+  font-weight: bold;
+  color: white;
+  background-color: crimson;
+  border-radius: 1rem;
+}
+
+.drop-zone,
+.draggable-elements
+{
+  height: 32rem;
+  border: 1px solid green;
+}
+
+
+img
+{
+    max-height: 16rem;
+}

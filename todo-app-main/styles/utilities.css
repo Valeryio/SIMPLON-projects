@@ -1,0 +1,77 @@
+
+
+
+/*
+  Utilities classes for the box hover statements
+*/
+.task__delete-icon
+{
+  display: none;
+}
+
+.task-box:hover .task__delete-icon
+{
+  display: block;
+}
+
+.default-task-box:hover .task__delete-icon
+{
+  display: none;
+}
+
+.active-btn
+{
+  color: var( --clr-p-bright-blue);
+}
+
+
+input[type=checkbox]
+{
+  opacity: 0;
+}
+
+.checkbox-mark
+{
+  left: 1.5rem;
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid var(--clr-l-grayish-blue);
+}
+
+.checkbox-mark:hover,
+.active-check
+{
+  background:
+  url("../images/icon-check.svg"),
+  linear-gradient( hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+  background-repeat: no-repeat;
+  background-size: .8rem .8rem, cover;
+  background-position: center,0 0;
+}
+
+
+.line-through
+{
+  text-decoration: line-through;
+}
+
+.white-theme
+{
+  color: var(--clr-d-blue);
+  background-color: white;
+}
+
+.white-backgroud
+{
+  background: 
+  url('./../images/bg-desktop-light.jpg') no-repeat,
+  white;
+  background-size:
+  100% 16rem,
+  100% 100% ;
+}
